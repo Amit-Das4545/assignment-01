@@ -81,3 +81,39 @@ nav {
     height: 328px;
     border-radius: 30px;
 }
+
+/* wc-features */
+.wc-features {
+    background-color:  #bebeffd8;
+    padding: 50px 20px;
+    border-radius: 24px;
+    margin: 20px auto;
+    width: auto;  
+}
+.wc-features-title {
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.wc-feature-h{
+    font-size: 80px;
+    font-weight: bold;
+    color: #1404ef;
+    margin-bottom: 10px;
+    font-family:"Inter", sans-serif;
+}
+.wc-feature-span {
+    font-size: 20px;
+    font-weight: regular;
+    color: #000000;
+    margin-left: 1 0px;
+    font-family:"Inter", sans-serif;
+}
+.wc-features-list{
+    display: flex;
+    justify-content: space-around;
+}
+/* customer reviews */
+.
