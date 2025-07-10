@@ -9,11 +9,13 @@ header {
     background-size: cover;
     background-position: center;
     width: auto;
+    padding: 0px auto;
 
 }
 /* nav logo */
 nav {  
     padding: 10px 20px;
+    margin: 30px 0;
 }
 .logo {
     max-width: 50px;
@@ -116,4 +118,104 @@ nav {
     justify-content: space-around;
 }
 /* customer reviews */
-.
+.customers-review {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+  
+}
+.customer-review {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 8px 12px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+.reviews-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.customer-review-star {
+    margin-bottom: 20px;
+    width: 20px;
+    justify-content: left;
+}
+.customer-review-h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.customer-review-p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.customer-review-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+   justify-content: space-around;
+    margin-top: 20px;
+}
+.customer-review-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.customer-review-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 10px;
+}
+.customer-review-date {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #252432;
+    margin-top: 0px;
+    gap: 0px;
+}
+
+/* extra */
+.extra-h{
+    font-size: 50px;
+    font-weight: bold;
+}
+.extra-p{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.extra {
+    background-color: #F8F8F8;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: auto;
+   
+}
+
+   button{
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.extra-img{
+    padding: 20px;
+    border-radius:  70px;
+}
