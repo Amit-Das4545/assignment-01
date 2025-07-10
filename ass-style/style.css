@@ -1,0 +1,83 @@
+/* font design */
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+}
+/* header-bg */
+header {
+    background-image: url(../assets/Hero-bg.png); 
+    background-size: cover;
+    background-position: center;
+    width: auto;
+
+}
+/* nav logo */
+nav {  
+    padding: 10px 20px;
+}
+.logo {
+    max-width: 50px;
+}
+/* btn-primary */
+.btn-primary {
+    background-color: #4E47FF;
+    color: #fff;
+    border: none;
+    padding: 16px 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color:yellow;
+    color: black;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.hero {
+    padding: 100px 50px;
+    text-align: center;
+}
+.hero-title {
+    font-size: 65px;
+    color: #252432;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+/*wc-mini  */
+.wc-mini {
+    background-color: #F8F8F8;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.wc-mini h4 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.wc-mini p {
+    font-size: 30px;
+    font-weight: regular;
+    color: #252432;
+    margin-bottom: 30px;
+}
+.wc-mini img {
+    width: 403px;
+    height: 328px;
+    border-radius: 30px;
+}
